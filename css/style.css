@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    font-weight: bolder;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    background-color: #120f0f;
+    padding: 50px 20px;
+    border-radius: 2px;
+}
+
