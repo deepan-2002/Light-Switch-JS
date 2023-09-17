@@ -8,13 +8,13 @@ offBtn.style.cursor ='not-allowed'
 let text = document.querySelector('h3')
 
 let switchOn = () => {
-    imageContainer.innerHTML = `<div>
+    imageContainer.innerHTML = `<div id="image-container">
     <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" alt="light on"
-    width="100px">
+    class="light">
 </div>
 <div>
     <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" alt="cat in Light"
-    width="350px">
+    class="cat">
 </div>`
     onBtn.style.backgroundColor = 'white'
     offBtn.style.backgroundColor = 'red'
@@ -24,13 +24,13 @@ let switchOn = () => {
 }
 
 let switchOff = () => {
-    imageContainer.innerHTML = `<div>
+    imageContainer.innerHTML = `<div id="image-container">
     <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png" alt="light off"
-    width="100px">
+    class="light">
 </div>
 <div>
     <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png" alt="cat eyes"
-    width="350px">
+    class="cat">
 </div>`
     onBtn.style.backgroundColor = 'green'
     offBtn.style.backgroundColor = 'white'

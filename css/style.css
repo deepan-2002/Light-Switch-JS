@@ -28,20 +28,20 @@ body{
     border-radius: 2px;
     width: 200px;
 }
-img.lightoff{
+img.light{
     width: 100px;
 }
 
-img.cateyes{
+img.cat{
     width: 350px;
 }
 
 @media only screen and (max-width: 425px) {
-    img.lightoff{
+    img.light{
         width: 70px;
     }
     
-    img.cateyes{
+    img.cat{
         width: 245px;
     }
     .switch{
