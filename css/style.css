@@ -28,4 +28,27 @@ body{
     border-radius: 2px;
     width: 200px;
 }
+img.lightoff{
+    width: 100px;
+}
 
+img.cateyes{
+    width: 350px;
+}
+
+@media only screen and (max-width: 425px) {
+    img.lightoff{
+        width: 70px;
+    }
+    
+    img.cateyes{
+        width: 245px;
+    }
+    .switch{
+        display: none;
+    }
+    .container{
+        width: auto;
+        padding: 20px;
+    }
+  }
